@@ -16,7 +16,9 @@ If you find bag, please create ISSUE.
 
 ```js
 [
-    [field_name_server, field_name_client?, default_value?]
+    [field_name_server, field_name_client?, default_value?],
+    [field_name_server, field_name_client?, default_value?],
+    /// other fields
 ]
 ```
 
@@ -47,7 +49,7 @@ field_name_client = "";
 Example scheme convert
 
 ```js
-[
+const scheme = [
   ["user_name", "userName"],
   ["age"],
   ["money.now", "moneyNow", 0],
@@ -58,8 +60,8 @@ Example scheme convert
 
 Example data from server
 
-```json
-{
+```js
+const data = {
   "user_name": "bob",
   "age": 7,
   "money": {
