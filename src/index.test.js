@@ -1,4 +1,4 @@
-const { norm2Store, norm2Server } = require("./index.js");
+import { norm2Store, norm2Server } from "./index.js";
 
 const mockData = {
   user_name: "bob",
