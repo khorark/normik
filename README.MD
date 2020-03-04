@@ -22,12 +22,16 @@ If you find bag, please create ISSUE.
 ]
 ```
 
-**If not field_name_client will be set default field_name_server.**
+***If not field_name_client will be set default field_name_server.***
 <br>
 
-**If you need set default value, but don't need set field_name_client, plese set**
+***If you need set default value, but don't need set field_name_client, plese set***
 
-**If you need usage nesting, please use dot in field name**
+```js
+field_name_client = "";
+```
+
+***If you need usage nesting, please use dot in field name***
 
 ```js
 money.now
@@ -38,10 +42,6 @@ money.now
         now: $value$
     }
 }
-```
-
-```js
-field_name_client = "";
 ```
 
 ## Example usage
