@@ -2,6 +2,10 @@
 
 <p align="center" style="font-weight: bold; font-size: 20px;">
 Fast and simple library for convert your data from server to store and backward.
+
+[![Version][version-badge]][package]
+[![Build Status][build-badge]][build]
+[![Tweet][twitter-badge]][twitter]
 </p>
 
 ## Installation
@@ -116,3 +120,12 @@ Result
 ```
 
 ## Licence MIT.
+
+
+[build-badge]: https://img.shields.io/circleci/project/github/DylanVann/react-native-fast-image/master.svg?style=flat-square
+[build]: https://circleci.com/gh/DylanVann/react-native-fast-image/tree/master
+[downloads-badge]: https://img.shields.io/npm/dm/react-native-fast-image.svg?style=flat-square
+[package]: https://www.npmjs.com/package/normik
+[version-badge]: https://img.shields.io/npm/v/react-native-fast-image.svg?style=flat-square
+[twitter]: https://twitter.com/AKhoroshikh
+[twitter-badge]: https://img.shields.io/twitter/url/https/github.com/DylanVann/react-native-fast-image.svg?style=social
