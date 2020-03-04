@@ -1,4 +1,4 @@
-export const norm2Store = (data, scheme) => {
+const norm2Store = (data, scheme) => {
   const calcValue = (v, d) =>
     v.split(".").reduce((resV, vv) => (resV = resV[vv]), d);
 
@@ -20,8 +20,13 @@ export const norm2Store = (data, scheme) => {
   }, {});
 };
 
-export const norm2Server = (data, scheme) =>
-  getResult(
+const norm2Server = (data, scheme) =>
+  norm2Store(
     data,
     scheme.map(value => (value[1] ? [value[1], value[0]] : [value[0]]))
   );
+
+module.exports = {
+  norm2Store,
+  norm2Server
+};
